@@ -39,7 +39,7 @@ function cardMaker(obj){
     for(let k in lang){
         let ex = obj.data.articles[k];
         ex.forEach(element => {
-            const card = document.createElement("div");
+            const card = document.createElement("span");
             const headline = document.createElement("div");
             const auth = document.createElement("div");
             const imgC = document.createElement("div");

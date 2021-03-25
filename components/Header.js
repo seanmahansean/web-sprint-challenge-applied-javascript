@@ -21,8 +21,8 @@ function Header() {
     header.classList.add("date");
     header.classList.add("temp");
 
-    h1.textContent = "Lmabda Time"
-    date.textContent = "Lmabda Time"
+    h1.textContent = "Lambda Times"
+    date.textContent = "MARCH 28, 2020"
     temp.textContent = "98°";
 
     header.appendChild(date);
